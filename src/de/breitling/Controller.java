@@ -1,11 +1,11 @@
 package de.breitling;
 
 public class Controller {
-    private Model model;
+    private TimeModel timeModel;
     private View view;
 
-    public Controller(Model model, View view) {
-        this.model = model;
+    public Controller(TimeModel timeModel, View view) {
+        this.timeModel = timeModel;
         this.view = view;
         initiActions();
     }

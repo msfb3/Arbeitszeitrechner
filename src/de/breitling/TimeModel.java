@@ -1,4 +1,4 @@
 package de.breitling;
 
-public class Model {
+public class TimeModel {
 }
