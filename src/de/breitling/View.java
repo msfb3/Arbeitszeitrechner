@@ -52,4 +52,60 @@ public class View {
         window.setVisible(true);
 
     }
+
+    public JTextField getTxtBegin() {
+        return txtBegin;
+    }
+
+    public void setTxtBegin(JTextField txtBegin) {
+        this.txtBegin = txtBegin;
+    }
+
+    public JTextField getTxtEnd() {
+        return txtEnd;
+    }
+
+    public void setTxtEnd(JTextField txtEnd) {
+        this.txtEnd = txtEnd;
+    }
+
+    public JButton getBtnUpdate() {
+        return btnUpdate;
+    }
+
+    public void setBtnUpdate(JButton btnUpdate) {
+        this.btnUpdate = btnUpdate;
+    }
+
+    public JButton getBtnCalculate() {
+        return btnCalculate;
+    }
+
+    public void setBtnCalculate(JButton btnCalculate) {
+        this.btnCalculate = btnCalculate;
+    }
+
+    public JFrame getWindow() {
+        return window;
+    }
+
+    public void setWindow(JFrame window) {
+        this.window = window;
+    }
+
+    public JTable getTimeTable() {
+        return timeTable;
+    }
+
+    public void setTimeTable(JTable timeTable) {
+        this.timeTable = timeTable;
+    }
+
+    public JTextField getTxtUserId() {
+        return txtUserId;
+    }
+
+    public void setTxtUserId(JTextField txtUserId) {
+        this.txtUserId = txtUserId;
+    }
 }
